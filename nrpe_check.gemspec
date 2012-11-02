@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'nrpe_check'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.authors = ['Dallas Marlow']
   s.email   = ['dallasmarlow@gmail.com']
   s.summary = 'nrpe check helper'
