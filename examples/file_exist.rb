@@ -3,7 +3,7 @@ require 'nrpe_check/extend'
 
 filename = ARGV.first
 
-run do
+check do
   exit_with_status :unknown, "no filename given" unless filename
 
   if File.exists? filename

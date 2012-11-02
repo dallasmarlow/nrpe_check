@@ -1,7 +1,7 @@
 module NRPE
   module Check
 
-    def run
+    def check
       set_default_status
 
       yield if block_given?
