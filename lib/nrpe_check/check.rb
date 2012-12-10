@@ -18,7 +18,7 @@ module NRPE
     def exit_with_status status, message = nil
       case status.downcase
       when :ok, :warning, :critical, :unknown
-        puts "#{status.upcase}: " + message if message
+        STDOUT.puts "#{status.upcase}: " + message if message
 
         exit! eval ['NRPE', 'Status', status.upcase].join '::'
       else
