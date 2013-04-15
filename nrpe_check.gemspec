@@ -10,6 +10,8 @@ Gem::Specification.new do |s|
     'lib/nrpe_check/check.rb',
     'lib/nrpe_check/status.rb',
     'lib/nrpe_check/extend.rb',
+    'lib/nrpe_check/logging.rb',
+    'lib/nrpe_check/network.rb'
   ]
 
   s.require_paths = ["lib"]
