@@ -3,6 +3,8 @@ require 'net/https'
 require 'timeout'
 require 'uri'
 
+require 'nrpe_check/logging'
+
 
 module NRPE
   module Network
