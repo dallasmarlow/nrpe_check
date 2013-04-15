@@ -1,5 +1,7 @@
 module NRPE
   module Check
+    include NRPE::Logging
+    include NRPE::Network
 
     def check
       set_default_status
